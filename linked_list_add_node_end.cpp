@@ -48,5 +48,7 @@ int main()
     head->link = NULL;
 
     add_node_end(head, 67);
-    print_node(head);
+
+    //print the data
+    print_data(head);
 }
