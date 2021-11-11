@@ -26,7 +26,7 @@ int main()
 for(i=0; i<l; i++)
     {
 
-        if(s[i] != 'a' and s[i] != 'e' and s[i] != 'i' and s[i] != 'o' and s[i] != 'u')
+        if(s[i] != 'a' and s[i] != 'e' and s[i] != 'i' and s[i] != 'o' and s[i] != 'u' and s[i] != 'y')
         {
             cout<<"."<<s[i];
         }
