@@ -1,13 +1,76 @@
 #include<bits/stdc++.h>
 using namespace std;
-
 int main()
 {
+    ios_base::sync_with_stdio(false);
+    int a,b=0,c=0,d=0,e=0,f=0,g=0,h=0,m=0,k=0,i;
     string s;
     cin>>s;
-    int l, flag, i;
-    l= s.length();
-
-
+    a=s.length();
+    for(i=0;i<a;i++)
+    {
+        if(s[i]=='h')
+        {
+            b++;
+            f=1;
+            break;
+        }
+        else{
+            b++;
+        }
+    }
+    for(i=b;i<a;i++)
+    {
+        if(s[i]=='e')
+        {
+            c++;
+            g=1;
+            break;
+        }
+        else{
+            c++;
+        }
+    }
+    for(i=b+c;i<a;i++)
+    {
+        if(s[i]=='l')
+        {
+            d++;
+            h=1;
+            break;
+        }
+        else{
+            d++;
+        }
+    }
+    for(i=b+c+d;i<a;i++)
+    {
+        if(s[i]=='l')
+        {
+            e++;
+            m=1;
+            break;
+        }
+        else{
+            e++;
+        }
+    }
+    for(i=b+c+d+e;i<a;i++)
+    {
+        if(s[i]=='o')
+        {
+            k=1;
+            break;
+        }
+        else{
+        }
+    }
+    if(f==1 && g==1 && h==1 && m==1 && k==1)
+    {
+        cout<<"YES"<<endl;
+    }
+    else{
+        cout<<"NO"<<endl;
+    }
 
 }
