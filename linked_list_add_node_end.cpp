@@ -50,5 +50,5 @@ int main()
     add_node_end(head, 67);
 
     //print the data
-    print_data(head);
+    print_node(head);
 }
