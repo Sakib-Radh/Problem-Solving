@@ -1,3 +1,4 @@
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -12,6 +13,13 @@ int main()
         freq[a[i]]++;
 
     }
+
+    for(i =0 ; i<8; i++)
+    {
+        cout<<freq[a[i]]<<" ";
+
+    }
+
 
 
 
